@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menus.css";
 // import Zoom from "react-reveal/Zoom";
-
+import photo from "../../assets/docs/photos.jpg"
 import { Link } from "react-scroll";
 import {
   FcAbout,
@@ -20,7 +20,7 @@ const Menus = ({ toggle }) => {
      
             <div className="navbar-profile-pic">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+                src={photo}
                 alt="profile pic"
               />
             </div>
@@ -99,7 +99,7 @@ const Menus = ({ toggle }) => {
                     duration={100}
                   >
                     <FcPortraitMode />
-                    Work Experince
+                  Extra Cirricular Activities
                   </Link>
                 </div>
                 <div className="nav-link">

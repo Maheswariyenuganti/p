@@ -1,10 +1,10 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.txt";
+// import Resume from "../../assets/docs/resume.txt";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./Home.css";
-
+import resume from "../../assets/docs/Y.Maheswari Resume.pdf"
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -24,14 +24,14 @@ const Home = () => {
         </div>
         <div className="container home-content">
         
-            <h2>Hi 👋 I'm a</h2>
+            <h2>Hi  I'm Maheswari</h2>
             <h1>
               <Typewriter
                 options={{
                   strings: [
-                    "FullStack Developer!",
+                    "Problem solver!",
                     "Mern Stack Developer!",
-                    "React native developer!",
+                    "React Developer!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -43,13 +43,13 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=1234567890"
+                href="https://api.whatsapp.com/send?phone=6309309018"
                 rel="noreferrer"
                 target="_blank"
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="your_name.pdf">
+              <a className="btn btn-cv" href={resume} download="your_name.pdf">
                 My Resume
               </a>
             </div>

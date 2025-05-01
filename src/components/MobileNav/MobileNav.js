@@ -125,7 +125,7 @@ const MobileNav = () => {
                     onClick={handleMenuClick}
                   >
                     <FcPortraitMode />
-                    Work Experince
+                 Extra Cirricular Activities
                   </Link>
                 </div>
                 <div className="nav-link">

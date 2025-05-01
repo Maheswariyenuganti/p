@@ -30,7 +30,7 @@ function App() {
         </div>
         <div className="footer pb-3 ms-3">
        
-            <h4 className="text-center">Made With 😍 Techinfoyt &copy; 2023</h4>
+            <h4 className="text-center">Y.Maheswari &copy; 2025</h4>
          
         </div>
       </div>

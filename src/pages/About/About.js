@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 // import Jump from "react-reveal/Jump";
+import image from "../../assets/docs/photos.jpg"
 const About = () => {
   return (
     <>
@@ -9,23 +10,15 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+                src={image}
                 alt="profile_pic"
               />
             </div>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About me</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-                similique sequi velit aperiam totam quis iusto? Deleniti,
-                similique id, sunt porro eos neque ab sit nihil culpa labore
-                perferendis autem rem nostrum asperiores laudantium corrupti
-                atque voluptatibus voluptatum officiis. Soluta alias autem,
-                commodi quos suscipit modi maiores possimus! Placeat maiores
-                assumenda inventore vel doloribus, sunt non. Sequi, corporis
-                harum dolorem numquam, quis nesciunt atque tempore quae?
-                Quibusdam consequatur quidem pariatur hic, ipsam eum beatae
-                labore tempora quis fugit? Vitae, aperiam velit.
+              I am Y.Maheswari, a final year B.Tech student in Computer Science and Engineering at KITS College. I have a strong passion for problem-solving and software development. I enjoy tackling real-world challenges through code and constantly strive to enhance my skills in building efficient, scalable, and impactful solutions. My interests lie in full-stack development, programming, and continuously learning emerging 
+              technologies. I'm always eager to learn and explore new technical tools and technologies. I enjoy building real-world solutions
               </p>
             </div>
           </div>

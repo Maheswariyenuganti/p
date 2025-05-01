@@ -13,7 +13,7 @@ const Techstack = () => {
           </h2>
           <hr />
           <p className="pb-3 text-center">
-            👉 including programming Languages, frameworks, databses, front-end
+             Including programming Languages, frameworks, databses, front-end
             and back-end tools, and APIs
           </p>
     

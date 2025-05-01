@@ -3,7 +3,8 @@ import Home from "../../pages/Home/Home";
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 import "./Layout.css";
 import Menus from "../Menus/Menus";
-
+// import photo from "../../assets/docs/photos.jpg"
+// 
 const Layout = () => {
   const [toggle, setToggle] = useState(true);
 
