@@ -52,7 +52,10 @@ const Home = () => {
               <a className="btn btn-cv" href={resume} download="your_name.pdf">
                 My Resume
               </a>
+             
+              <h4 className="email">Email : yenugantimaheswari011@gmail.com</h4>
             </div>
+     
         
         </div>
       </div>
